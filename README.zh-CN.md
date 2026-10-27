@@ -2,7 +2,7 @@
 
 [English](README.md)
 
-一个可以直接运行的 MotusAI Seed 插件工程，演示 SDK 设置控件、前后端调用、带冲突检测的偏好保存，以及中英文翻译。
+MotusAI Seed 官方插件开发模板，基于公开 SDK，演示设置控件、前后端调用、带冲突检测的偏好保存，以及中英文翻译。
 
 工程从 npm 安装 `@motus-ai/seed-sdk`，无需下载客户端源码、编译本地 SDK 或全局安装 CLI。
 
@@ -17,7 +17,7 @@
 
 ## 开始开发
 
-通过 GitHub 模板创建自己的仓库，或把工程文件复制到新目录。在自己的工程根目录执行：
+在 [agimx-ai/seed-sample-plugin](https://github.com/agimx-ai/seed-sample-plugin) 点击 **Use this template** 创建自己的仓库，或把工程文件复制到新目录。在自己的工程根目录执行：
 
 ```sh
 npm install
@@ -95,6 +95,7 @@ CI 在 Windows、macOS 和 Linux 上执行安装和 `check`，不会安装插件
 
 ## 参考资料
 
+- [MotusAI Seed 主仓库](https://github.com/agimx-ai/motusai-seed)
 - [npm 上的 Seed SDK](https://www.npmjs.com/package/@motus-ai/seed-sdk)
 - [插件开发文档](https://motusseed.com/docs/plugins)
 

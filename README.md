@@ -2,7 +2,7 @@
 
 [简体中文](README.zh-CN.md)
 
-A small, runnable MotusAI Seed plugin project. It demonstrates SDK settings controls, calls to a separate backend service, saved preferences with conflict detection, and English/Chinese translations.
+The official starter template for developing MotusAI Seed plugins with the public SDK. It demonstrates SDK settings controls, calls to a separate backend service, saved preferences with conflict detection, and English/Chinese translations.
 
 The project installs `@motus-ai/seed-sdk` from npm. It does not need a Seed source checkout, a local SDK build, or a globally installed CLI.
 
@@ -17,7 +17,7 @@ Clients started from source and installed releases use the same switch and plugi
 
 ## Get started
 
-Use this repository as a GitHub template, or copy its files into your own project. Run from that project's root:
+Choose **Use this template** on [agimx-ai/seed-sample-plugin](https://github.com/agimx-ai/seed-sample-plugin) to create your own repository, or copy its files into a new project. Run from that project's root:
 
 ```sh
 npm install
@@ -95,6 +95,7 @@ If Windows reports that `seed-plugin` or `tsc` cannot be found, verify that Node
 
 ## References
 
+- [MotusAI Seed](https://github.com/agimx-ai/motusai-seed)
 - [Seed SDK on npm](https://www.npmjs.com/package/@motus-ai/seed-sdk)
 - [Plugin development documentation](https://motusseed.com/docs/plugins)
 
