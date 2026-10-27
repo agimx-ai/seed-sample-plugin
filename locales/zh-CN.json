@@ -1,0 +1,31 @@
+{
+  "plugin": {
+    "name": "示例插件",
+    "description": "保存显示名称，并查看专属问候。"
+  },
+  "settings": {
+    "title": "打个招呼",
+    "intro": "保存你的名字，然后查看问候。",
+    "name": "显示名称",
+    "nameHelp": "最多 80 个字符。留空时使用默认称呼。",
+    "namePlaceholder": "你的名字",
+    "save": "保存",
+    "savedPreferences": "已保存的偏好",
+    "ready": "已读取最新保存的偏好。",
+    "saved": "已保存在当前设备。",
+    "reload": "重新读取",
+    "reloadHelp": "读取已保存的名称，并放弃尚未保存的修改。",
+    "greeting": "问候",
+    "greetingHelp": "使用已保存的名称和当前时间生成问候。",
+    "showGreeting": "查看问候"
+  },
+  "greeting": {
+    "message": "你好，{{name}}！",
+    "anonymous": "朋友"
+  },
+  "errors": {
+    "invalidPreferences": "请输入不超过 80 个字符的名称。",
+    "invalidSavedPreferences": "无法读取已保存的偏好，原数据未被覆盖。",
+    "conflict": "名称已在其他页面修改。请按需复制当前草稿，再点击「重新读取」后编辑。"
+  }
+}

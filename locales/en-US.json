@@ -1,0 +1,31 @@
+{
+  "plugin": {
+    "name": "Sample Plugin",
+    "description": "Save a display name and show a personal greeting."
+  },
+  "settings": {
+    "title": "A small hello",
+    "intro": "Save your name, then ask for a greeting.",
+    "name": "Display name",
+    "nameHelp": "Up to 80 characters. Leave empty to use a friendly default.",
+    "namePlaceholder": "Your name",
+    "save": "Save",
+    "savedPreferences": "Saved preferences",
+    "ready": "Your saved preferences are up to date.",
+    "saved": "Saved on this device.",
+    "reload": "Reload saved",
+    "reloadHelp": "Reload the saved name and discard your unsaved changes.",
+    "greeting": "Greeting",
+    "greetingHelp": "Uses your saved name and the current time.",
+    "showGreeting": "Show greeting"
+  },
+  "greeting": {
+    "message": "Hello, {{name}}!",
+    "anonymous": "friend"
+  },
+  "errors": {
+    "invalidPreferences": "Enter a name of up to 80 characters.",
+    "invalidSavedPreferences": "The saved preferences could not be read. No data was overwritten.",
+    "conflict": "The saved name changed elsewhere. Copy your draft if needed, then choose Reload saved before editing again."
+  }
+}

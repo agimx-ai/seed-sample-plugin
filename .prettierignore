@@ -1,0 +1,6 @@
+node_modules/
+dist/
+dist.building-*/
+dist.previous-*/
+artifacts/
+package-lock.json

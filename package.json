@@ -1,0 +1,30 @@
+{
+  "name": "com.example.seed.sample",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "description": "A runnable MotusAI Seed plugin example using the public SDK.",
+  "keywords": [
+    "utilities"
+  ],
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "dev": "seed-plugin dev",
+    "build": "node build.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test tests/service.test.ts",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "check": "npm run format:check && npm run typecheck && npm test && npm run build",
+    "pack": "npm run build && seed-plugin pack"
+  },
+  "devDependencies": {
+    "@motus-ai/seed-sdk": "0.3.11",
+    "@types/node": "24.0.0",
+    "prettier": "3.9.10",
+    "typescript": "7.0.2"
+  }
+}
